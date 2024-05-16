@@ -8,8 +8,10 @@ export default function GuestLayout() {
         return <Navigate to="/" />
     }
   return (
-    <div>
-        <Outlet />
+    <div className='login-signup-form animated fadeInDown'>
+        <div>
+            <Outlet />
+        </div>
     </div>
   )
 }
